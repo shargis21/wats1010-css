@@ -1,6 +1,96 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
+body {
+  background-image: url('images/hiking-the-sand-dunes.jpg');
+  font-family: serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+}
 h1 {
-    color: green;
+  color: #016083;
+  padding-left: 2rem;
+}
+h2 {
+  color: #582001;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+p {
+  padding-left: 2rem;
+  color: #582001;
+}
+header.page-header {
+  background: #C6E5DF;
+  padding: 1rem;  
+  margin: 1rem;
+  border: 1px;
+  border: medium dashed #016083;
+  border-radius: 10px;
+}
+.page-header h1 {
+  margin-bottom: 0;
+}
+.page-header p {
+  margin-top: 0;
+}
+.page-header small {
+  font-size: medium;
+}
+aside.more-info {
+  background: #F8F9EA;
+  border: 1px;
+  border: medium dashed #582001;
+  border-radius: 10px;
+  margin: 1rem;
+}
+aside.more-info img {
+  width: 150px;
+  height: auto;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  }
+.social-links {
+  list-style-type: none;
+  line-height: 1.6;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-size: large;
+  background: #C6E5DF;
+  margin: 1rem;
+}
+.poem {
+  list-style-type: none;
+  background: rgba(88,32,1,0.8);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border: 1px;
+  border: medium dashed white;
+  border-radius: 10px;
+  margin: 1rem;
+}
+.poem li {
+  font-size: large;
+  line-height: 1.8;
+  color: white;  
+}
+.citation {
+  font-size: large;
+  color: #582001
+}
+.content-footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+footer.page-footer {
+  background: #C6E5DF;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+  color: #016083;
+  border: 1px;
+  border: medium dashed #016083;
 }
